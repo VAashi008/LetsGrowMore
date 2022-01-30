@@ -1,0 +1,76 @@
+/* HEADER PART */
+nav {
+  width: 100%; height: fit-content;
+  background-color: rgb(14, 12, 11);
+  box-shadow: 0px 0px 60px rgb(24, 21, 21);
+  position: fixed; top: 0;
+  z-index: 9;
+}
+.navitems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navitems h1{
+  padding: 0px 20px;
+  color: white; 
+  letter-spacing: 1px;
+}
+.navitems h1:hover{
+  text-shadow: 0px 0px 10px white;
+}
+.navitems button {
+  width: 200px; height: fit-content;
+  border-radius: 10px;
+  color: white;
+  background-color: #ffae00;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px;
+  transition-duration: 1.6s;
+}
+.fetchbtn:hover {
+  background-color: #ffae00;
+  box-shadow: 0px 0px 30px #ffae00;
+  transition-duration: 1.6s;
+}
+/* MAIN PART */
+.userdatacontainer {
+  width: 100%; height: fit-content;
+  margin-top: 74px;
+}
+#main {
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+#main img{
+  width: 140px;
+  margin-top: 64px;
+}
+.user-card {
+    width: 350px; height: fit-content;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+}
+.user-card:hover{
+  box-shadow: 0px 0px 10px black;
+}
+.user-card p{
+  font-weight: 400;
+}
+.footer {
+  width: 100%; height: fit-content;
+  text-align: center;
+  padding: 6px 0px;
+  background-color: rgb(14, 12, 11);
+  word-spacing: 2px;
+  color: white; font-size: 18px; font-weight: 400;
+  position: fixed;
+  z-index: 9;
+  bottom: 0; 
+}
